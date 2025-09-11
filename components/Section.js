@@ -10,6 +10,10 @@ class Section {
       this._renderer(item);
     });
   }
+
+  addItem(element) {
+    this._container.append(element); // append new todo DOM node
+  }
 }
 
 export default Section;
